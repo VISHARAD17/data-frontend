@@ -5,7 +5,8 @@ const Home = () => {
     const [data, setData] = useState([]);
 
     const fetchUserData = async () => {
-    await fetch("http://localhost:4001/getAll")
+    // await fetch("http://localhost:4001/getAll")
+    await fetch("https://visharad-backend.onrender.com/getAll")
         .then(response => {
         return response.json()
         })

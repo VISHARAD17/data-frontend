@@ -5,7 +5,8 @@ const Cond1 = () => {
     const [data, setData] = useState([]);
 
     const fetchUserData = async () => {
-    await fetch("http://localhost:4001/getcond4")
+    // await fetch("http://localhost:4001/getcond4")
+    await fetch("https://visharad-backend.onrender.com/getcond4")
         .then(response => {
         return response.json()
         })
