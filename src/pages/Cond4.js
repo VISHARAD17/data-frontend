@@ -22,7 +22,7 @@ const Cond1 = () => {
     return (
         <div className='App'>
             <div className='flex justify-center m-2'>
-                <h1 className='font-bold text-[20px] mt-auto mb-auto'> Condition 2 : </h1>
+                <h1 className='font-bold text-[20px] mt-auto mb-auto'> Condition 4 : </h1>
                 <p className='text-[18px] mt-auto mb-auto'>&nbsp; Users which have a car of brand “BMW”, “Mercedes” or “Audi” and whose email does not
 include any digit.</p>
             </div>

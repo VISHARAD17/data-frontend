@@ -10,6 +10,7 @@ import Cond1 from "./pages/Cond1";
 import Cond2 from "./pages/Cond2";
 import Cond3 from "./pages/Cond3";
 import Cond4 from "./pages/Cond4";
+import Cond5 from "./pages/Cond5";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="cond2" element={<Cond2 />} />
           <Route path="cond3" element={<Cond3 />} />
           <Route path="cond4" element={<Cond4 />} />
+          <Route path="cond5" element={<Cond5 />} />
           {/* <Route path="*" element={<NoPage />} /> */}
         </Route>
       </Routes>

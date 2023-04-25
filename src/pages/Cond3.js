@@ -22,7 +22,7 @@ const Cond1 = () => {
     return (
         <div className='App'>
             <div className='flex justify-center m-2'>
-                <h1 className='font-bold text-[20px] mt-auto mb-auto'> Condition 2 : </h1>
+                <h1 className='font-bold text-[20px] mt-auto mb-auto'> Condition 3 : </h1>
                 <p className='text-[18px] mt-auto mb-auto'>&nbsp; Users whose last name starts with “M” and has a quote character length greater than 15 and
 email includes his/her last name.</p>
             </div>

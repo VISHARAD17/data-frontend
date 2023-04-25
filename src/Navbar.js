@@ -20,6 +20,9 @@ const Navbar = () => {
         <li>
           <Link className="text-blue-800 m-2 font-bold" to="/cond4">condition_4</Link>
         </li>
+        <li>
+          <Link className="text-blue-800 m-2 font-bold" to="/cond5">condition_5</Link>
+        </li>
       </ul>
     </nav>
   );
